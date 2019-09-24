@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+.mont
+  {
+    font-family: 'Montserrat', sans-serif;
+      
+      
+  }
+  .bg-black
+  {
+      background-color: black;
+
+  }
+  .bg-orng
+  {
+      background-color: rgb(255, 102, 0);
+
+  }
+  .mont-big
+  {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100px;
+    text-align: center;
+  }
+  .posrel
+  {
+      position: relative;
+  }
+  .jumbotron
+  {
+      height: auto;
+      width: 50%;
+  }
