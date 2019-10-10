@@ -1,4 +1,65 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+@media screen and (max-width: 900px) {
+
+}
+@media screen and (max-width: 768px) {
+
+}
+@media screen and (max-width: 480px) {
+	
+}
+html, body{
+    margin: 0;
+    padding: 0;
+    height:100%;
+    width: 100%;
+}
+.bgm
+{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background: url(https://stmed.net/sites/default/files/matterhorn-wallpapers-27948-5464692.jpg);
+    display: table;
+    top: 0;
+    background-size: cover;
+    opacity: 1;
+}
+.bgm .inner{
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+}
+.content{
+    
+    margin: 0 auto;
+    text-align: center;
+}
+.f2{
+    font-family: 'Merriweather', serif;
+}
+.content h1{
+    font-family: 'Merriweather', serif;
+    color: white;
+    font-size: 75pt;
+}
+.btn{
+    border-radius: 9px;
+    font-family: 'Anton', sans-serif;
+    color: black;
+    font-size: 32pt;
+    border: solid rgb(255, 94, 0) 3px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.btn:hover{
+    color: white;
+    border: solid rgb(255, 102, 0) 3px;
+}
 .mont
   {
     font-family: 'Montserrat', sans-serif;
@@ -21,12 +82,6 @@
     font-size: 100px;
     text-align: center;
   }
-  .posrel
-  {
-      position: relative;
-  }
-  .jumbotron
-  {
-      height: auto;
-      width: 50%;
+.white{
+      color: white;
   }
