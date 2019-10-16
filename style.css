@@ -7,7 +7,22 @@
 .colgre{
 	background-color:#138808;
 }
-
+.butnytb {
+	-webkit-border-radius: 20;
+	-moz-border-radius: 20;
+	border-radius: 20px;
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 20px;
+	background: #c70e0e;
+	padding: 10px 30px 10px 30px;
+	text-decoration: none;
+  }
+  
+  .butnytb:hover {
+	background: #ff0000;
+	text-decoration: none;
+  }
 .navbar-brand img{
 height: 2rem;
 }
@@ -19,7 +34,7 @@ body {
 	background-attachment: fixed;
 	overflow-x: hidden; /*--right gutter fix--*/
 	font-family: sans-serif;
-	color: #505962;
+	color: black;
 }
 
 .caption{
@@ -49,7 +64,7 @@ h3.heading{
 	margin-bottom: 1.9rem;
 }
 .padding{
-	padding: 2rem 0;
+	padding: 8rem;
 }
 .padding2{
 	font-size: 1.8rem;
@@ -63,6 +78,10 @@ h3.heading{
 	padding: 3rem 0;
 	text-transform: uppercase;
 	text-align: justify;
+}
+.padding4{
+	font-size: 1.1rem;
+	padding: 2rem 26rem;
 }
 img.services{
 	max-width: 50%;
