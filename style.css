@@ -1,0 +1,141 @@
+.colorg{
+	background-color: rgb(255, 115, 0);
+}
+.colbla{
+	background-color: black;
+}
+.colgre{
+	background-color:#138808;
+}
+
+.navbar-brand img{
+height: 2rem;
+}
+.navbar{
+	text-transform: uppercase;
+	background-color: black;
+}
+body {
+	background-attachment: fixed;
+	overflow-x: hidden; /*--right gutter fix--*/
+	font-family: sans-serif;
+	color: #505962;
+}
+
+.caption{
+	width: 100%;
+	max-width: 100%;
+	position: absolute;
+	top: 45%;
+	z-index: 1;
+}
+.caption h3{
+	color: white;
+	font-size: 6rem;
+	text-transform: uppercase;
+	padding-bottom: 4rem;
+
+}
+.btn{
+	border-width:medium;
+	border-radius: 0;
+	text-transform: uppercase;
+	padding: .5rem 1.1rem;
+}
+h3.heading{
+	text-align: center;
+	font-size: 4rem;
+	text-transform: uppercase;
+	margin-bottom: 1.9rem;
+}
+.padding{
+	padding: 2rem 0;
+}
+.padding2{
+	font-size: 1.8rem;
+	padding: 3rem 0;
+	text-transform: uppercase;
+	text-align:center;
+	
+}
+.padding3{
+	font-size: 1.1rem;
+	padding: 3rem 0;
+	text-transform: uppercase;
+	text-align: justify;
+}
+img.services{
+	max-width: 50%;
+}
+img.services2{
+	max-width: 75%;
+}
+.card{
+	margin: 2rem;
+}
+
+.cardmar{
+	margin: 8rem;
+}
+/*--- iOS Landing Page Fix --*/
+.landing {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: table;
+  background: #E9ECEF;
+  z-index: -1;
+}
+.home-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.home-inner {
+  display: table;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(https://stmed.net/sites/default/files/matterhorn-wallpapers-27948-5464692.jpg);
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+
+/*--- Fixed Landing Page Section --*/
+.landing {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	display: table;
+	z-index: -1;
+  }
+  .home-wrap {
+	clip: rect(0, auto, auto, 0);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+  }
+  .home-inner {
+	position: fixed;
+	display: table;
+	background-image: url(https://stmed.net/sites/default/files/matterhorn-wallpapers-27948-5464692.jpg);
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center center;
+	-webkit-transform: translateZ(0);
+			transform: translateZ(0);
+	will-change: transform;
+  }
+  

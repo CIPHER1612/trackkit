@@ -1,0 +1,18 @@
+ <div class="row no-padding text-center">
+   <div class="col-md-6">
+      <h4>Responsive Web Designing</h4>
+     <img class="services" src="https://cdn0.iconfinder.com/data/icons/seo-and-internet-marketing-set-2/100/Responsive_Design-512.png">
+   </div>
+   <div class="col-md-6 text-center">
+      <h4>Logo Designing</h4>
+      <img class="services" src="https://cdn4.iconfinder.com/data/icons/design-9/24/Digital-Design-512.png">
+    </div>
+    <div class="col-md-6 text-center">
+        <h4>Web Hosting Consultancy</h4>
+        <img class="services" src="https://cdn3.iconfinder.com/data/icons/device-gadgets-1/512/05-512.png">
+      </div>
+      <div class="col-md-6 text-center">
+          <h4>Wordpress</h4>
+          <img class="services" src="https://4bmeqmoeekpme49a1bkoqq1e-wpengine.netdna-ssl.com/wp-content/uploads/2017/06/wordpress-logo.svg">
+        </div>
+      </div>
